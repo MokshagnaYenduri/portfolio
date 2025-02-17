@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills & Technologies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f4f4f4; /* Light background color */
+            color: #333; /* Dark text color for contrast */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure body takes full viewport height */
+        }
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end; /* Align items to the right */
+            align-items: center; /* Vertically center items */
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header .moon-icon {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex-grow: 1; /* Allow content to expand and fill available space */
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555; /* Slightly darker heading color */
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+            gap: 20px;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+            background-color: #fff; /* White skill item background */
+        }
+
+        .skill-item:hover {
+            transform: translateY(-5px); /* Move up slightly on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+        }
+
+        .skill-icon {
+            font-size: 48px; /* Larger icons */
+            margin-bottom: 10px;
+            color: #007bff; /* Blue icon color - you can customize this */
+        }
+        .skill-icon img{
+            max-width: 48px;
+        }
+
+        .skill-name {
+            font-weight: 500;
+            color: #444; /* Slightly darker text for skill names */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="moon-icon">
+            <i class="fas fa-moon"></i>
+        </span>
+    </div>
+
+    <div class="container">
+        <h2 class="title">Skills & Technologies</h2>
+        <div class="skills-grid">
+
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="React">
+                </span>
+                <span class="skill-name">React</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </span>
+                <span class="skill-name">HTML</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </span>
+                <span class="skill-name">CSS</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-node-js"></i>
+                </span>
+                <span class="skill-name">Node.js</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fas fa-leaf"></i>
+                </span>
+                <span class="skill-name">Spring Boot</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </span>
+                <span class="skill-name">Python</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </span>
+                <span class="skill-name">SQL</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </span>
+                <span class="skill-name">Power BI</span>
+            </div>
+             <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-aws"></i>
+                </span>
+                <span class="skill-name">AWS</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fab fa-git-alt"></i>
+                </span>
+                <span class="skill-name">Git</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fas fa-table"></i>
+                </span>
+                <span class="skill-name">Pandas</span>
+            </div>
+            <div class="skill-item">
+                <span class="skill-icon">
+                    <i class="fas fa-square"></i>
+                </span>
+                <span class="skill-name">NumPy</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
