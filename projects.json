@@ -1,20 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Demo Project - 1",
-    "description": "Demo Project - 1 Description describing it's simplicity and beauty",
+    "name": "PDF Chat bot",
+    "description": "The PDF Chatbot is a personal AI-driven project designed to enhance document accessibility by converting PDF files into searchable text and enabling users to ask context-aware questions based on the extracted content. Hosted on Streamlit, the chatbot leverages Google Generative AI, LangChain, and LangChain-Community for intelligent conversational capabilities. It uses PyPDF2 for PDF processing and ChromaDB & FAISS-CPU as vector databases for efficient information retrieval. The integration of Python-Dotenv ensures seamless environment configuration. This project simplifies knowledge extraction from large technical documents, making information retrieval faster, smarter, and more user-friendly.",
     "thumbnail": "https://cdn.dribbble.com/userupload/15833652/file/original-dedc7a68b8b2087b4a689bfdcdda5958.png?resize=450x338&vertical=center",
     "images": [
       
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Demo Project - 2",
-    "description": "Demo Project - 2 Description describing it's simplicity and beauty",
-    "thumbnail": "https://cdn.dribbble.com/userupload/14731398/file/original-52314d7ff3359ccf4626bc74ff2eaf03.png?resize=400x300&vertical=center",
-    "images": [
-         
     ]
   },
   {
