@@ -4,6 +4,7 @@
     "name": "PDF Chat bot",
     "description": "The PDF Chatbot is a personal AI-driven project designed to enhance document accessibility by converting PDF files into searchable text and enabling users to ask context-aware questions based on the extracted content. Hosted on Streamlit, the chatbot leverages Google Generative AI, LangChain, and LangChain-Community for intelligent conversational capabilities. It uses PyPDF2 for PDF processing and ChromaDB & FAISS-CPU as vector databases for efficient information retrieval. The integration of Python-Dotenv ensures seamless environment configuration. This project simplifies knowledge extraction from large technical documents, making information retrieval faster, smarter, and more user-friendly.",
     "thumbnail": "https://cdn.dribbble.com/userupload/31255239/file/original-49364ade814d300c9058d35c0336a051.png?resize=752x&vertical=center",
+    "Repo": "https://github.com/MokshagnaYenduri/PDF_chatBot",
     "images": [
       
     ]
