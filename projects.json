@@ -2,21 +2,16 @@
   {
     "id": 1,
     "name": "PDF Chat bot",
-    "description": "The PDF Chatbot is a personal AI-driven project designed to enhance document accessibility by converting PDF files into searchable text and enabling users to ask context-aware questions based on the extracted content. Hosted on Streamlit, the chatbot leverages Google Generative AI, LangChain, and LangChain-Community for intelligent conversational capabilities. It uses PyPDF2 for PDF processing and ChromaDB & FAISS-CPU as vector databases for efficient information retrieval. The integration of Python-Dotenv ensures seamless environment configuration. This project simplifies knowledge extraction from large technical documents, making information retrieval faster, smarter, and more user-friendly.",
-    "thumbnail": "https://cdn.dribbble.com/userupload/31255239/file/original-49364ade814d300c9058d35c0336a051.png?resize=752x&vertical=center",
+    "description": "The <b>PDF</b> Chatbot is a personal AI-driven project designed to enhance document accessibility by converting PDF files into searchable text and enabling users to ask context-aware questions based on the extracted content. Hosted on <b>Streamlit</b>, the chatbot leverages <b>Google Generative AI, LangChain, and LangChain-Community</b> for intelligent conversational capabilities. It uses <b>PyPDF2</b> for PDF processing and <b>ChromaDB & FAISS-CPU</b> as vector databases for efficient information retrieval. The integration of <b>Python-Dotenv</b> ensures seamless environment configuration.<br><br><b>Key Features:</b><ul><li><b>PDF to Searchable Text</b> - Converts PDFs into <i>searchable</i> and <i>processable</i> text.</li>  <li><b>Context-Aware Chatbot</b> - Users can ask questions based on extracted content.</li>  <li><b>Powered by AI</b> - Uses <i>Google Generative AI</i> and <i>LangChain</i> for intelligent responses.</li>  <li><b>Efficient Information Retrieval</b> - Utilizes <i>ChromaDB & FAISS-CPU</i> as vector databases.</li>  <li><b>PDF Processing</b> - Extracts text using <i>PyPDF2</i>.</li> <li><b>Seamless Deployment</b> - Hosted on <i>Streamlit</i> with environment management via <i>Python-Dotenv</i>.</li>  </ul>  This project simplifies knowledge extraction from large documents, making information retrieval <b>faster, smarter, and more user-friendly</b>.",
+    "thumbnail": "https://cdn.dribbble.com/userupload/31794777/file/original-62763e95f57d53753136bb8a88b67de6.png?resize=752x&vertical=center",
     "Repo": "https://github.com/MokshagnaYenduri/PDF_chatBot",
-    "images": [
-      
-    ]
+    "images": ["https://cdn.dribbble.com/userupload/31255239/file/original-49364ade814d300c9058d35c0336a051.png?resize=752x&vertical=center", "https://cdn.dribbble.com/userupload/31794798/file/original-d5307da108b457e3c2a881f5463b47be.png?resize=752x&vertical=center"]
   },
   {
     "id": 3,
     "name": "Demo Project - 3",
-    "description": "Demo Project - 3 Description describing it's simplicity and beauty",
+    "description": "Demo Project - 3 Description describing its simplicity and beauty.",
     "thumbnail": "https://cdn.dribbble.com/userupload/15356214/file/original-2d119c159832c795a80a38006ffbe902.png?resize=400x300&vertical=center",
-    "images": [
-           
-    ]
+    "images": []
   }
-
 ]

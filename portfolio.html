@@ -422,7 +422,10 @@
                 projectCard.className = 'project-card';
                 projectCard.innerHTML = `
                     <img src="${project['Image URL']}" alt="${project.Name}" onclick="openImageModal('${project['Image URL']}')">
-                    <h3>${project.Name}</h3>
+                    <h3>
+                ${project.Name} 
+                <a href="${project.Repo}" target="_blank" class="repo-link">🔗</a>
+            </h3>
                     <p>${project.Description}</p>
                 `;
                 portfolioContainer.appendChild(projectCard);
@@ -465,10 +468,10 @@
 
         // Populate project details
         projectName.textContent = project.name;
-        projectDescription.textContent = project.description;
+        projectDescription.innerHTML = project.description;
         projectThumbnail.src = project.thumbnail;
 
-        // Clear previous images
+        // Clear previous imagess
         projectImagesContainer.innerHTML = '';
 
         // Populate images from URLs
