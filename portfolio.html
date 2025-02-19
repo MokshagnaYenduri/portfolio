@@ -13,9 +13,9 @@
 
     <title>Mokshagna's portfolio</title>
 
-    <link rel="shortcut icon" href="assets/Favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
 
-    <style>
+    <style> 
         /* CSS boilerplate */
         * {
             margin: 0;
@@ -307,27 +307,26 @@
     <div id="main" class="h-fit w-[100vw] bg-[#F6F6F6] flex flex-col items-center bg-[#F6F6F6]">
         <div id="cursor" class="sm:flex hidden"></div>
 
-        <div id="nav" class="h-[8vh] w-[100vw] bg-white flex justify-between items-center fixed z-[5]">
-
-            <div id="logo" class="w-[33.33%]">
-                <a href="index.html"><img src="assets/Logo.png" class="h-[20px] w-fit pl-[25px]" alt=""></a>
-                
+        <div id="nav" class="h-[8vh] w-[100vw] bg-white flex justify-between items-center fixed z-[5] px-[25px]">
+            <!-- Pages in Center -->
+            <div class="flex-1 flex justify-center">
+                <div id="pages" class="flex gap-[25px] font-[500] ml-[85px]">
+                    <a id="Home" href="index.html"><p>Home</p></a>
+                    <a href="index.html#About"><p>About</p></a>
+                    <a href="contact.html"><p>Contact</p></a>
+                    <a href="portfolio.html"><p>Portfolio</p></a>
+                </div>
             </div>
-
-            <div id="pages" class="hidden gap-[25px] w-[33.33%] justify-center font-[500] sm:flex">
-                <a id="Home" href="index.html"><p>Home</p></a>
-                <a href="index.html#About"><p>About</p></a>
-                <a href="contact.html"><p>Contact</p></a>
-                <a href="portfolio.html"><p>Portfolio</p></a>
-            </div>
-
-            <div id="Socials" class="w-[33.33%] flex justify-end pr-[25px] gap-[10px] text-[22px]">
+        
+            <!-- Socials on Right -->
+            <div id="Socials" class="flex gap-[10px] text-[22px]">
                 <a target="_blank" href="https://www.linkedin.com/in/mokshagna-yenduri-5194162bb/"><i class="ri-linkedin-box-fill"></i></a>
                 <a target="_blank" href="https://github.com/MokshagnaYenduri"><i class="ri-github-fill"></i></a>
-                <a target="_blank" href="#"><i class="ri-behance-fill"></i></a>
+                <a target="_blank" href="https://www.instagram.com/mokshagna._.xo/"><i class="ri-instagram-fill"></i></a>
             </div>
-
         </div>
+        
+        
         <div id="gap" class="h-[8vh] w-[100vw]"></div>
 
         <div id="card_holder" class="h-[92%] w-[95%] sm:w-[85%] items-center justify-center py-[35px]">
@@ -385,9 +384,6 @@
         <div id="footer" class="sm:h-[50vh] h-[70vh] w-full bg-black">
             <div id="top" class="h-[80%] w-full sm:flex-row flex-col flex">
                 <div id="left top" class="sm:h-full sm:w-1/2 h-[30%] w-[100%]  flex flex-col p-8 text-white sm:gap-6 justify-center border-b border-gray-500">
-                    <div id="logo" class="h-25px w-fit flex gap-[8px] items-center">
-                        <img src="assets/Logo(2).png" class="sm:h-6 h-7 w-fit" alt=""> <p class="text-[12px] text-gray-500 font-[500] mt-[10px]">V_0.2</p>
-                    </div>
                     <p class="text-sm w-3/4 sm:flex hidden">Here are my contact details: </p>
                     <p class="text-sm w-3/4 sm:flex hidden">Email: &nbsp;<a href="mailto:mokshagnayenduri@gmail.com">mokshagnayenduri@gmail.com</a> </p>
                     <p class="text-sm w-3/4 sm:flex hidden">Phone: &nbsp;+91 8367246334</p>

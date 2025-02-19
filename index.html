@@ -17,7 +17,7 @@
 
     <title>Portfolio | Home page</title>
 
-    <link rel="shortcut icon" href="assets/Favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
 
     <style>
         /* ::selection {
@@ -271,25 +271,23 @@
      -->
     <div id="cursor" class="sm:flex hidden"></div>
 
-    <div id="nav" class="h-[8vh] w-[100vw] bg-white flex justify-between items-center fixed z-[5]">
-        <div id="logo" class="w-[33.33%]">
-            <a href="index.html"><img src="assets/Logo.png" class="h-[20px] w-fit pl-[25px]" alt=""></a>
-            
+    <div id="nav" class="h-[8vh] w-[100vw] bg-white flex justify-between items-center fixed z-[5] px-[25px]">
+        <!-- Pages in Center -->
+        <div class="flex-1 flex justify-center">
+            <div id="pages" class="flex gap-[25px] font-[500] ml-[85px]">
+                <a id="Home" href="index.html"><p>Home</p></a>
+                <a href="index.html#About"><p>About</p></a>
+                <a href="contact.html"><p>Contact</p></a>
+                <a href="portfolio.html"><p>Portfolio</p></a>
+            </div>
         </div>
-
-        <div id="pages" class="hidden gap-[25px] w-[33.33%] justify-center font-[500] sm:flex">
-            <a id="Home" href="#herosec"><p>Home</p></a>
-            <a href="#About"><p>About</p></a>
-            <a href="contact.html"><p>Contact</p></a>
-            <a href="portfolio.html"><p>Portfolio</p></a>
-        </div>
-
-        <div id="Socials" class="w-[33.33%] flex justify-end pr-[25px] gap-[10px] text-[22px]">
+    
+        <!-- Socials on Right -->
+        <div id="Socials" class="flex gap-[10px] text-[22px]">
             <a target="_blank" href="https://www.linkedin.com/in/mokshagna-yenduri-5194162bb/"><i class="ri-linkedin-box-fill"></i></a>
             <a target="_blank" href="https://github.com/MokshagnaYenduri"><i class="ri-github-fill"></i></a>
-            <a target="_blank" href="#"><i class="ri-behance-fill"></i></a>
+            <a target="_blank" href="https://www.instagram.com/mokshagna._.xo/"><i class="ri-instagram-fill"></i></a>
         </div>
-
     </div>
 
     <div id="Page1" class="h-[100vh] w-[100vw] relative overflow-hidden bg-black">
@@ -299,7 +297,7 @@
 
         <div id="herosec" class="h-[100vh] w-[100vw] flex flex-col text-white justify-center px-[25px] sm:px-[55px] gap-[30px] pt-[30px]">
             <p id="stroke" class="sm:text-[130px] text-[50px] leading-[55px] font-[600] sm:font-[500] sm:leading-[145px] sm:tracking-[-2px]">I'm Mokshagna, a Software-Developer.</p>
-            <p id="stroke-2" class="sm:text-[18px] text-[12px] sm:w-[80%] bg-black">I am Yenduri Mokshagna, a B.Tech (Hons.) CSE student at KL University, specializing in cybersecurity with a 9.2 CGPA. Passionate about problem-solving, computers, and meeting new people, I have expertise in Java, web development, SDLC, and Agile methodologies.  have participated in multiple hackathons, reaching final rounds and winning one. Always eager to innovate, explore, and tackle new challenges.</p>
+            <p id="stroke-2" class="sm:text-[18px] text-[12px] sm:w-[80%] bg-black">I am Yenduri Mokshagna, a B.Tech (Hons.) CSE student at KL University, specializing in cybersecurity with a 9.2 CGPA. Passionate about problem-solving, computers, and meeting new people, I have expertise in Java, web development, Hands-on experience on SDLC, and Agile methodologies. have participated in multiple hackathons, reaching final rounds and winning one. Always eager to innovate, explore, and tackle new challenges.</p>
             <div id="start_btn" class="button-hover bg-[#ffffff36] w-[100%] sm:w-[32%] px-[12px] py-[10px] rounded-full border-[2px] border-[#ffffff66] backdrop-blur-[3px] flex justify-between items-center relative overflow-hidden cursor-pointer">
                 <p id="btn_text" class="sm:text-[30px] text-[25px] sm:p-[0px] sm:pl-[15px]">Download Resume</p>
                 <span id="btn_bg" class="bg-[#FF5733] text-[45px] text-black rounded-full py-[5px] px-[16px]"><i class="ri-corner-up-right-line"></i></span>
@@ -345,7 +343,7 @@
                         <img id="hover-effect" src="./assets/AboutPage.jpg" alt="Project 1">
                     </div>
                     <div class="image-container cursor-pointer overflow-hidden sm:flex hidden">
-                        <img id="hover-effect" src="./assets/UploadPage.jpg" alt="Project 1">
+                        <img id="hover-effect" src="./assets/UploadPage.jpg " alt="Project 1">
                     </div>
                 </div>
             </div>
