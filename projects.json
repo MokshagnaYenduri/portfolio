@@ -8,10 +8,16 @@
     "images": ["https://cdn.dribbble.com/userupload/31255239/file/original-49364ade814d300c9058d35c0336a051.png?resize=752x&vertical=center", "https://cdn.dribbble.com/userupload/31794798/file/original-d5307da108b457e3c2a881f5463b47be.png?resize=752x&vertical=center"]
   },
   {
-    "id": 3,
-    "name": "Demo Project - 3",
-    "description": "Demo Project - 3 Description describing its simplicity and beauty.",
-    "thumbnail": "https://cdn.dribbble.com/userupload/15356214/file/original-2d119c159832c795a80a38006ffbe902.png?resize=400x300&vertical=center",
-    "images": []
+    "id": 2,
+    "name": "E-Clinic",
+    "description": "The <b>E-Clinic</b> project is a digital healthcare platform designed for secure medical record storage and prescription management. It integrates <b>Aadhar</b> to provide hospitals with emergency access to a patient's medical history, aiding treatment during critical situations. Future enhancements include <b>Blockchain</b> for immutable data security.<br><br><b>Technologies Used:</b><ul><li><b>Frontend:</b> HTML, CSS, JavaScript</li><li><b>Backend:</b> Django Framework, Django REST Framework</li><li><b>Database:</b> MySQL</li><li><b>Version Control:</b> Git, GitHub</li></ul><br><b>Key Features:</b><ul><li><b>Prescription Upload:</b> Users can securely store medical prescriptions.</li><li><b>Aadhar Integration:</b> Links medical records for universal accessibility.</li><li><b>Blockchain Security (Upcoming):</b> Ensures tamper-proof data storage.</li><li><b>Medical Reminders:</b> Alerts for timely medication intake.</li><li><b>Emergency Access:</b> Hospitals can retrieve patient history in critical cases.</li></ul>This project aims to enhance healthcare efficiency with <b>centralized, secure, and accessible</b> medical records.",
+    "thumbnail": "https://cdn.dribbble.com/userupload/31874687/file/original-babc2f7ca1975c993e55ca51ec110597.jpg?resize=752x&vertical=center",
+    "Repo": "",
+    "images": [
+      "https://cdn.dribbble.com/userupload/31874750/file/original-a1e92fc3ce5ea88152131ea9953ffa44.jpg?resize=752x&vertical=center",
+      "https://cdn.dribbble.com/userupload/31874751/file/original-b5c51767d56aee23dcd2be5be5d7c70c.jpg?resize=752x&vertical=center"
+      
+
+    ]
   }
-]
+] 
